@@ -151,51 +151,58 @@ body {
   color: #000000;
   margin-top: 0;
   margin-bottom: 5px;
+  font-weight: 400;
 }
 .content-block .text-content p {
-  font-size: 22px;
-  font-family: 'Rhodioum Libre';
+  font-size: 26px;  
+  font-family: 'Rhodium Libre';
   color: #000000;
   line-height: 1.6; 
+  font-weight: 400;
   
 }
 .trends-column {
   display: inline-block; 
   vertical-align: top;
   width: 20%;
-  height: 20%;
+  height: 30%;
   padding: 0;
   border-radius: 0;
   text-align: center;
   background-color: #FFF8DC;
-  padding: 20px 15px;
+  padding: 20px 15px 0px;
   border-radius: 8px;
 }
 .trends-column h4 {
-  font-size: 22px;
-  font-weight: 0;
+  font-size: 45px;
+  font-weight: 400;
   font-family: 'Righteous';
   color: #FFFFFF;
   text-align: center;
   padding: 8px 15px;
   padding-top: 10px;
   margin: -40px auto 20px auto;
-  width: 250px;
+  width: 200px;
   display: block;
   background-color: #B09464;
 }
 
 .trend-item {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   padding: 0; 
 }
 
+
 .trend-item h5 {
   font-family: 'Rhodium Libre';
-  font-size: 21px;
+  font-size: 28px;
   color: #000000;
   margin-right: 250px;
   margin-block: 0;
+  font-style: normal;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-weight: 400;
 }
 
 .trend-item p {
@@ -203,6 +210,9 @@ body {
   font-size: 14px;
   color: #000000;
   margin-top: 5px;
+}
+.trend-item img {
+  padding: 0;
 }
 
 /* Quote Section */
@@ -224,9 +234,8 @@ body {
   display: inline-block;
   vertical-align: middle;
   font-family: Great Vibes;
-  font-size: 105px;
-  font-style: italic;
-  max-width: 850px;
+  font-size: 150px;
+  max-width: 1000px;
   line-height: 1.3;
   margin: 0;
 }
@@ -236,7 +245,6 @@ body {
   color: #8D3409;
   line-height: 1;
   display: inline;
-  transform: translateY(5px);
 }
 /* Footer */
 .footer {
